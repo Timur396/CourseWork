@@ -12,7 +12,6 @@ public class Employee {
         id = counter++;
 
     }
-
     public String toString() {
         return ("ФИО сотрудника:" + fullName + "; Отдел:" + departament + "; Заралата сотрудника: " + salary + "; id сотрудника:" + id);
     }
