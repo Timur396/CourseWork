@@ -1,6 +1,5 @@
 public class Main {
     private static Employee[] employees = new Employee[5];
-
     public static void main(String[] args) {
         employees[0] = new Employee("Гогохия Тимур", 1, 52957);
         employees[1] = new Employee("Картешева Анастасия", 2, 69831);
@@ -16,19 +15,5 @@ public class Main {
         System.out.println("Средняя зарплата: " + Methods.averageSalary(employees));
 
         Methods.printFullName(employees);
-
     }
-
-
-
-
-
-
-
-
-
 }
-
-
-            
-    

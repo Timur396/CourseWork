@@ -32,7 +32,6 @@ public class Methods {
             }
         }
     }
-
     public static Employee employeeMaxSalary(Employee[] employees) {
         Employee result = employees[0];
         if (employees[0] == null) {
