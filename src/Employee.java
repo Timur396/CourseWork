@@ -61,4 +61,3 @@ public class Employee {
         return fullName.equals(fullName) && departament == employee.departament && salary == employee.salary;
     }
 }
-
